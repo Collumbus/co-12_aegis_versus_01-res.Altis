@@ -1,0 +1,46 @@
+author = "Fuiba - Editado por Collumbus";
+
+// Overview:
+overviewText = "PMC AEGIS takes over the local extremist group Nekrón Chélia.";
+overviewPicture = "overview_01.paa"; // Mission screenshot
+
+// Loading:
+onLoadName = "Resurreximus"; // Mission name
+onLoadMission = "Neutralize key personnel of a local extremist group and acquire vehicles and weaponry.";
+loadScreen = "AEGISlogo.paa"; // Loading screen pip
+enableDebugConsole = 1;
+respawn            = 4;
+
+doneKeys[] = {"co10_pmcvcro01"};
+
+minScore=0;
+avgScore=1000;
+maxScore=14000;
+#include "aegis_ace_settings.hpp"
+
+class CfgWorlds
+{
+		// Loading texts displayed on the bottom of the loading screen (picked randomly)
+		loadingTexts[]=
+		{
+			"PMC AEGIS was founded in 1997.",
+			"Stratis is of volcanic origin, with many rocks and crevices and AEGIS."
+		};
+};
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 12;
+};
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Mission Completed";
+		subtitle = "";
+		description = "PMC AEGIS has successfully eliminated the key personnel in Nekron Chelia power structure and acquired weapons and vehicles. Corona will be spending the next days mounting some heavy weaponry on the offroad platforms.";
+	};
+};
