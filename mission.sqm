@@ -170,7 +170,7 @@ class Mission
 					skill=0.60000002;
 					text="perditus1";
 					init="this setVariable [""BIS_enableRandomization"", false]; perditussquad = group this; this setgroupid [""Perditus""];";
-					description="Perditus 1 (team leader)";
+					description="Perditus 1 (Team Leader)";
 				};
 				class Item1
 				{
@@ -185,7 +185,7 @@ class Mission
 					skill=0.60000002;
 					text="perditus2";
 					init="this setVariable [""BIS_enableRandomization"", false]; perditussquad = group this; this setgroupid [""Perditus""];";
-					description="Perditus 2 (medic)";
+					description="Perditus 2 (Medic)";
 				};
 				class Item2
 				{
@@ -200,7 +200,7 @@ class Mission
 					skill=0.62584305;
 					text="perditus3";
 					init="this setVariable [""BIS_enableRandomization"", false]; perditussquad = group this; this setgroupid [""Perditus""];";
-					description="Perditus 3 (autorifleman)";
+					description="Perditus 3 (Autorifleman)";
 				};
 				class Item3
 				{
@@ -215,7 +215,7 @@ class Mission
 					skill=0.60201967;
 					text="perditus4";
 					init="this setVariable [""BIS_enableRandomization"", false]; perditussquad = group this; this setgroupid [""Perditus""]; ";
-					description="Perditus 4 (demolition expert)";
+					description="Perditus 4 (Demolition Expert)";
 				};
 				class Item4
 				{
@@ -230,7 +230,7 @@ class Mission
 					skill=0.60201967;
 					text="perditus5";
 					init="this setVariable [""BIS_enableRandomization"", false]; perditussquad = group this; this setgroupid [""Perditus""]; ";
-					description="Perditus 5 (marksman)";
+					description="Perditus 5 (Marksman)";
 				};
 				class Item5
 				{
@@ -245,7 +245,7 @@ class Mission
 					skill=0.60201967;
 					text="perditus6";
 					init="this setVariable [""BIS_enableRandomization"", false]; perditussquad = group this; this setgroupid [""Perditus""];";
-					description="Perditus 6 (granadier)";
+					description="Perditus 6 (Marksman)";
 				};
 			};
 		};
@@ -269,7 +269,7 @@ class Mission
 					skill=0.60000002;
 					text="derelictus1";
 					init="this setVariable [""BIS_enableRandomization"", false]; derelictussquad = group this; this setgroupid [""Derelictus""]; ";
-					description="Derelictus 1 (team leader)";
+					description="Derelictus 1 (Team Leader)";
 				};
 				class Item1
 				{
@@ -284,7 +284,7 @@ class Mission
 					skill=0.60000002;
 					text="derelictus2";
 					init="this setVariable [""BIS_enableRandomization"", false]; derelictussquad = group this; this setgroupid [""Derelictus""]; ";
-					description="Derelictus 2 (medic)";
+					description="Derelictus 2 (Medic)";
 				};
 				class Item2
 				{
@@ -299,7 +299,7 @@ class Mission
 					skill=0.60000002;
 					text="derelictus3";
 					init="this setVariable [""BIS_enableRandomization"", false]; derelictussquad = group this; this setgroupid [""Derelictus""]; ";
-					description="Derelictus 3 (autorifleman)";
+					description="Derelictus 3 (Autorifleman)";
 				};
 				class Item3
 				{
@@ -313,7 +313,7 @@ class Mission
 					skill=0.60000002;
 					text="derelictus4";
 					init="this setVariable [""BIS_enableRandomization"", false]; derelictussquad = group this; this setgroupid [""Derelictus""]; ";
-					description="Derelictus 4 (demolition expert)";
+					description="Derelictus 4 (Demolition Expert)";
 				};
 				class Item4
 				{
@@ -327,7 +327,7 @@ class Mission
 					skill=0.60000002;
 					text="derelictus5";
 					init="this setVariable [""BIS_enableRandomization"", false]; derelictussquad = group this; this setgroupid [""Derelictus""];";
-					description="Derelictus 5 (marksman)";
+					description="Derelictus 5 (Marksman)";
 				};
 				class Item5
 				{
@@ -341,7 +341,7 @@ class Mission
 					skill=0.60000002;
 					text="derelictus6";
 					init="this setVariable [""BIS_enableRandomization"", false]; derelictussquad = group this; this setgroupid [""Derelictus""]; ";
-					description="Derelictus 6 (granadier)";
+					description="Derelictus 6 (Marksman)";
 				};
 			};
 		};
@@ -1446,7 +1446,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=29;
+		items=28;
 		class Item0
 		{
 			position[]={2288.3845,93.347961,22184.381};
@@ -1557,7 +1557,7 @@ class Mission
 		};
 		class Item10
 		{
-			position[]={6499.4116,171.49188,20021.531};
+			position[]={6606.9932,166.035,20076.66};
 			azimut=-124.631;
 			special="NONE";
 			id=69;
@@ -1763,17 +1763,6 @@ class Mission
 			vehicle="C_Van_01_box_F";
 			skill=0.60000002;
 			fuel=0;
-		};
-		class Item28
-		{
-			position[]={6560.4971,174.42397,19519.984};
-			azimut=-124.631;
-			special="NONE";
-			id=87;
-			side="EMPTY";
-			vehicle="IG_supplyCrate_F";
-			skill=0.60000002;
-			init="clearWeaponCargo this; clearMagazineCargo this;  this enableSimulation false; this allowDamage false; [""Preload""] call BIS_fnc_arsenal; this addaction [""<t color='#FF0000'>"" +""Abrir o Arsenal"",{[""Open"",true] call BIS_fnc_arsenal},nil,1,true,false,"""",""((_target distance _this <3))""];";
 		};
 	};
 	class Markers
