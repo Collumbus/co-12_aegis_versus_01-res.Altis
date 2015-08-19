@@ -77,7 +77,8 @@ class Mission
 		year=2015;
 		month=10;
 		day=19;
-		hour=15;
+		hour=16;
+		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
 	};
@@ -163,7 +164,7 @@ class Mission
 					special="NONE";
 					id=2;
 					side="WEST";
-					vehicle="B_G_Soldier_F";
+					vehicle="B_G_Soldier_TL_F";
 					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
