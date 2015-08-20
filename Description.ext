@@ -27,49 +27,37 @@ class CfgFunctions {
 
 class CfgLoadouts {
 //Team Lider
-  class B_G_Soldier_TL_F {
-    weapons[] = {"rhs_weap_ak74m_plummag_folded","rhsusf_weap_m1911a1"};
-    magazines[] = {""};
-    items[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","ACE_microDAGR","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK_green","rhs_30Rnd_545x39_AK_green","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-  };
+class B_G_Soldier_TL_F {
+  weapons[] = {"rhs_weap_ak74m_plummag_folded","rhsusf_weap_m1911a1"};
+  magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK_green","rhs_30Rnd_545x39_AK_green","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+  items[] = {"ACE_EarPlugs","ACE_microDAGR","ACE_fieldDressing","ACE_packingBandage","ACE_morphine"};
+};
 //Autorifleman
   class B_G_Soldier_AR_F {
     weapons[] = {"rhs_weap_akms","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm_tracer","rhs_30Rnd_762x39mm_tracer","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
+    magazines[] = {"Chemlight_blue","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm_tracer","rhs_30Rnd_762x39mm_tracer","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+    items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine"};
   };
 //Demolition Expert
   class B_G_Soldier_exp_F {
     weapons[] = {"rhs_weap_ak74m_plummag_folded","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
     backpack = "B_TacticalPack_oli";
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","APERSMine_Range_Mag","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_DefusalKit","ACE_Clacker","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_30Rnd_545x39_AK","ACRE_PRC152_ID_2"};
-    addItemsToBackpack[] = {"MineDetector","rhsusf_m112_mag","IEDLandSmall_Remote_Mag","APERSMine_Range_Mag","APERSMine_Range_Mag","DemoCharge_Remote_Mag","APERSTripMine_Wire_Mag"};
+    magazines[] = {"Chemlight_blue","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","APERSMine_Range_Mag","rhsusf_m112_mag","IEDLandSmall_Remote_Mag","APERSMine_Range_Mag","APERSMine_Range_Mag","DemoCharge_Remote_Mag","APERSTripMine_Wire_Mag","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhsusf_mag_7x45acp_MHP","rhs_30Rnd_545x39_AK","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+    items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","MineDetector","ACE_DefusalKit","ACE_Clacker"};
   };
 //Marksman
   class B_G_Soldier_M_F {
     weapons[] = {"rhs_weap_ak74m_2mag_npz","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
+    magazines[] = {"Chemlight_blue","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+    items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine",};
     primaryWeaponAttachments[] = {"optic_MRCO"};
   };
 //Medic
   class B_G_medic_F {
     weapons[] = {"R3F_MP5A5","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
     backpack = "B_TacticalPack_oli";
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-    addItemsToBackpack[] = {,"ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_plasmaIV_500","ACE_plasmaIV_500","ACE_bloodIV_500","ACE_bloodIV_500","ACE_salineIV_500","ACE_salineIV_500","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_personalAidKit","ACE_surgicalKit"};
+    magazines[] = {"Chemlight_blue","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","R3F_30Rnd_9x19_MP5","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+    items[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_plasmaIV_500","ACE_plasmaIV_500","ACE_bloodIV_500","ACE_bloodIV_500","ACE_salineIV_500","ACE_salineIV_500","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_personalAidKit","ACE_surgicalKit"};
     primaryWeaponAttachments[] = {"optic_ACO_grn"};
   };
 };
