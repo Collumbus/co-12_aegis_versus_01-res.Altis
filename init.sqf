@@ -1,6 +1,8 @@
-call compile preProcessFileLineNumbers "fhqtt.sqf";
-call compile preProcessFileLineNumbers "briefing.sqf";
+call compile preProcessFileLineNumbers "scripts\fhqtt.sqf";
+call compile preProcessFileLineNumbers "scripts\briefing.sqf";
 
+
+[] execVM "aegis\init.sqf";
 
 // Se for client, para aqui...
 if (!isServer) exitWith {};

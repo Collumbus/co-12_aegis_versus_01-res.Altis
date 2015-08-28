@@ -2,12 +2,12 @@ author = "Fuiba - Editado por Collumbus";
 
 // Overview:
 overviewText = "PMC AEGIS takes over the local extremist group Nekrón Chélia.";
-overviewPicture = "overview_01.paa"; // Mission screenshot
+overviewPicture = "images\overview_01.paa"; // Mission screenshot
 
 // Loading:
 onLoadName = "Resurreximus"; // Mission name
 onLoadMission = "Neutralize key personnel of a local extremist group and acquire vehicles and weaponry.";
-loadScreen = "AEGISlogo.paa"; // Loading screen pip
+loadScreen = "images\AEGISlogo.paa"; // Loading screen pip
 enableDebugConsole = 1;
 respawn            = 4;
 
@@ -17,13 +17,8 @@ minScore=0;
 avgScore=1000;
 maxScore=14000;
 
-//ACE Config
-#include "aegis_ace_settings.hpp"
-
-//Loadouts
-class CfgFunctions {
-  #include "modules\a3g-loadout\CfgFunctions.hpp"
-};
+//AEGIS Config
+#include "aegis\functions.hpp"
 
 class CfgLoadouts {
 //Team Lider
@@ -74,7 +69,7 @@ class CfgWorlds
 
 class Header
 {
-	gameType = Coop;
+	gameType = RPG;
 	minPlayers = 1;
 	maxPlayers = 12;
 };
