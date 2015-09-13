@@ -1986,7 +1986,7 @@ class Mission
 			text="END";
 			name="end";
 			expCond="obj1 == 1 AND obj2 == 1 AND obj3 == 1 AND obj4 == 1";
-			expActiv="activateKey ""co10_pmcvcro01""; 72000 call aegis_fnc_makePayment;";
+			expActiv="activateKey ""co10_pmcvcro01"";";
 			class Effects
 			{
 				titleType="TEXT";
